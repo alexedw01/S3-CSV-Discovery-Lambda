@@ -1,0 +1,23 @@
+# Virtual environments
+venv/
+.env/
+prellis_env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Environment variables
+.env
+.env.*
