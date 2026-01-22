@@ -16,7 +16,7 @@ sqs = None
 
 # Environment variables
 S3_SOURCE_BUCKET = os.getenv("S3_SOURCE_BUCKET")
-S3_PREFIX = os.getenv("S3_PREFIX")
+S3_PREFIX = os.getenv("S3_PREFIX", "")
 SQS_QUEUE_URL = os.getenv("SQS_QUEUE_URL")
 S3_STATE_BUCKET = os.getenv("S3_STATE_BUCKET")  # Can be same as source bucket
 S3_STATE_KEY = os.getenv("S3_STATE_KEY", "state/processed_files.json")        

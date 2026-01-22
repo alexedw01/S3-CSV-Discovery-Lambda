@@ -21,3 +21,8 @@ dist/
 # Environment variables
 .env
 .env.*
+
+# package and zip files
+*.zip
+*.tar.gz
+package/
